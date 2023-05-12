@@ -7,10 +7,9 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
+  background-color: #b9b6b6;
   color: #212121;
   line-height: 1.5;
-  background-color: lightgray;
 }
 
 #search-box {
@@ -20,17 +19,17 @@ body {
   margin-top: 30px;
   margin-bottom: 30px;
   text-align: center;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 img {
-  height: 150px;
-  width: 250px;
+  height: 70px;
+  width: 120px;
 }
 
 li {
   display: flex;
   flex-direction: column;
-  align-items: center;
   font-weight: 600;
   font-size: 18px;
 }
@@ -40,7 +39,7 @@ li {
   font-size: 18px;
   display: flex;
   gap: 20px;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .country-info {
